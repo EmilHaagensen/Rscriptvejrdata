@@ -202,4 +202,3 @@ if (nrow(new_data) > 0) {
 }
 
 dbDisconnect(con_ubuntu)
->>>>>>> ab3130258a6544f930985ab5f67c456bd0b30d7a
