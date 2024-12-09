@@ -75,10 +75,10 @@ combined_data$`Målt (starttid)` <- as.POSIXct(combined_data$`Målt (starttid)`,
 ##################### Pushing it to SQL
 con_ubuntu <- dbConnect(RMySQL::MySQL(),
                         db = "air_quality_data",
-                        host = "51.20.185.161",
+                        host = "13.51.175.253",
                         port = 3306,
-                        user = "redrika",
-                        password = "RedRika#3174",
+                        user = "dalremote",
+                        password = "Duddi100!!!",
                         client.flag = CLIENT_LOCAL_FILES)
 
 ##### Pushing new data in OLA5, opgave 2
